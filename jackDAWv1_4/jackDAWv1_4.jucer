@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="T7rAky" name="jackDAWv1_4" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.jackDAWv1_4" includeBinaryInAppConfig="1"
+              jucerVersion="5.2.1">
+  <MAINGROUP id="Nr62f6" name="jackDAWv1_4">
+    <GROUP id="{9CA15C20-0E45-E7CA-8718-EAAC9E732DBF}" name="Source">
+      <FILE id="fO3w8p" name="EditWindow.h" compile="0" resource="0" file="Source/EditWindow.h"/>
+      <FILE id="FJQgIf" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="aReqvV" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="HFrwcY" name="AudioTrack.h" compile="0" resource="0" file="Source/AudioTrack.h"/>
+    <FILE id="ewSBO8" name="CustomAudioTransportSource.h" compile="0" resource="0"
+          file="Source/CustomAudioTransportSource.h"/>
+    <FILE id="xyTbt3" name="CustomTransportSource.cpp" compile="1" resource="0"
+          file="Source/CustomTransportSource.cpp"/>
+    <FILE id="seaEmJ" name="EffectsPanel.h" compile="0" resource="0" file="Source/EffectsPanel.h"/>
+    <FILE id="tAxbWE" name="FileSelectWindow.h" compile="0" resource="0"
+          file="Source/FileSelectWindow.h"/>
+    <FILE id="hrMtiJ" name="MixWindow.h" compile="0" resource="0" file="Source/MixWindow.h"/>
+    <FILE id="Crdxdi" name="PlayHead.h" compile="0" resource="0" file="Source/PlayHead.h"/>
+    <FILE id="YM5IO0" name="TrackContainer.h" compile="0" resource="0"
+          file="Source/TrackContainer.h"/>
+    <FILE id="Q2nnZi" name="ViewPortComponent.h" compile="0" resource="0"
+          file="Source/ViewPortComponent.h"/>
+    <FILE id="ZViOlu" name="WaveformRegion.h" compile="0" resource="0"
+          file="Source/WaveformRegion.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017" windowsTargetPlatformVersion="10.0.16299.0">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="jackDAWv1_4"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="jackDAWv1_4"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_cryptography" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_video" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_opengl" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="..\..\juce-huckleberry-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
